@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		595A2DBE2977FA3C008C5003 /* ListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A2DBD2977FA3C008C5003 /* ListViews.swift */; };
 		59D77A34297734270039A8CF /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D77A33297734270039A8CF /* TextFields.swift */; };
 		59D77A36297739BD0039A8CF /* DatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D77A35297739BD0039A8CF /* DatePickers.swift */; };
 		59D77A3A29773F3F0039A8CF /* MasEjemplos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D77A3929773F3F0039A8CF /* MasEjemplos.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		595A2DBD2977FA3C008C5003 /* ListViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViews.swift; sourceTree = "<group>"; };
 		59D77A33297734270039A8CF /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		59D77A35297739BD0039A8CF /* DatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickers.swift; sourceTree = "<group>"; };
 		59D77A3929773F3F0039A8CF /* MasEjemplos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasEjemplos.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				59D77A3929773F3F0039A8CF /* MasEjemplos.swift */,
 				59D77A3B29775A500039A8CF /* GridsViews.swift */,
 				59D77A3D29775F810039A8CF /* FormView.swift */,
+				595A2DBD2977FA3C008C5003 /* ListViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				59FD85612976602600AA7D37 /* PrimeraParte.swift in Sources */,
 				59FD853529764BA500AA7D37 /* ContentView.swift in Sources */,
+				595A2DBE2977FA3C008C5003 /* ListViews.swift in Sources */,
 				59D77A3E29775F810039A8CF /* FormView.swift in Sources */,
 				59D77A3C29775A500039A8CF /* GridsViews.swift in Sources */,
 				59D77A36297739BD0039A8CF /* DatePickers.swift in Sources */,

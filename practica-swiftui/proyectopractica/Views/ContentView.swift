@@ -32,6 +32,12 @@ struct ContentView: View {
 					NavigationLink("Ejemplos de grid views", destination:
 													GridsViews()
 					)
+					NavigationLink("Ejemplos de form", destination:
+													FormView()
+					)
+					NavigationLink("Ejemplos de Listas(LOL)", destination:
+													ListViews()
+					)
 				}
 				.navigationTitle("Menu de vistas uwu")
 				.navigationBarTitleDisplayMode(.large)

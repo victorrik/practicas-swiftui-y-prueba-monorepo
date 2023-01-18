@@ -19,7 +19,7 @@ struct DatePickers: View {
 					DatePicker("Selecciona una fecha", selection: $fechaDatePicker)
 					.datePickerStyle(WheelDatePickerStyle())
 					
-					DatePicker("Selecciona una fecha", selection: $fechaDatePicker)
+					DatePicker("", selection: $fechaDatePicker)
 					.datePickerStyle(GraphicalDatePickerStyle())
 					Rectangle()
 						.frame(height: 5)
@@ -29,14 +29,7 @@ struct DatePickers: View {
 										 selection: $fechaDatePicker,
 										 in: Date()...,
 										 displayedComponents: .date)
-					Text("En un formulario uwu")
-					Form{
-						DatePicker("Fecha",
-											 selection: $fechaDatePicker,
-											 in: Date()...,
-											 displayedComponents: .date)
-						Text(fechaDatePicker,style: .date).bold()
-					}
+				 
 				}
 				.background(Color.white)
 				.padding(20)
