@@ -14,11 +14,23 @@ struct ContentView: View {
 					NavigationLink("Ejemplo vistas", destination:
 													PrimeraParte()
 					)
-					NavigationLink("Ejemplo estados", destination:
-													EjemploStates()
+					NavigationLink("Más ejemplos", destination:
+													MiniExtras()
 					)
 					NavigationLink("Ejemplo estados", destination:
 													EjemploStates()
+					)
+					NavigationLink("Ejemplos Texts fields", destination:
+													TextFields()
+					)
+					NavigationLink("Ejemplos de date picker", destination:
+													DatePickers()
+					)
+					NavigationLink("Más ejemplos", destination:
+													MasEjemplos()
+					)
+					NavigationLink("Ejemplos de grid views", destination:
+													GridsViews()
 					)
 				}
 				.navigationTitle("Menu de vistas uwu")
