@@ -20,8 +20,8 @@ struct MasEjemplos: View {
 				VStack{
 					ColorPicker("Selecciona un color",
 											selection: $currentColor)
-					.bold()
-					.font(.title)
+					
+					.font(Font.headline.weight(.bold))
 					Rectangle()
 						.foregroundColor(currentColor)
 						.frame(width: 200,height: 60)

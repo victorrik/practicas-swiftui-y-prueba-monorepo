@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		595A2DBE2977FA3C008C5003 /* ListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A2DBD2977FA3C008C5003 /* ListViews.swift */; };
+		59B12499297E437100693700 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B12498297E437100693700 /* TabViewExample.swift */; };
+		59B1249B297E49BA00693700 /* ModalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B1249A297E49BA00693700 /* ModalesView.swift */; };
+		59B1249D297E609B00693700 /* MasMasEjemplos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B1249C297E609B00693700 /* MasMasEjemplos.swift */; };
 		59D77A34297734270039A8CF /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D77A33297734270039A8CF /* TextFields.swift */; };
 		59D77A36297739BD0039A8CF /* DatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D77A35297739BD0039A8CF /* DatePickers.swift */; };
 		59D77A3A29773F3F0039A8CF /* MasEjemplos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D77A3929773F3F0039A8CF /* MasEjemplos.swift */; };
@@ -44,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		595A2DBD2977FA3C008C5003 /* ListViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViews.swift; sourceTree = "<group>"; };
+		59B12498297E437100693700 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		59B1249A297E49BA00693700 /* ModalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalesView.swift; sourceTree = "<group>"; };
+		59B1249C297E609B00693700 /* MasMasEjemplos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasMasEjemplos.swift; sourceTree = "<group>"; };
 		59D77A33297734270039A8CF /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		59D77A35297739BD0039A8CF /* DatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickers.swift; sourceTree = "<group>"; };
 		59D77A3929773F3F0039A8CF /* MasEjemplos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasEjemplos.swift; sourceTree = "<group>"; };
@@ -158,6 +164,9 @@
 				59D77A3B29775A500039A8CF /* GridsViews.swift */,
 				59D77A3D29775F810039A8CF /* FormView.swift */,
 				595A2DBD2977FA3C008C5003 /* ListViews.swift */,
+				59B12498297E437100693700 /* TabViewExample.swift */,
+				59B1249A297E49BA00693700 /* ModalesView.swift */,
+				59B1249C297E609B00693700 /* MasMasEjemplos.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,13 +302,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				59FD85612976602600AA7D37 /* PrimeraParte.swift in Sources */,
+				59B12499297E437100693700 /* TabViewExample.swift in Sources */,
 				59FD853529764BA500AA7D37 /* ContentView.swift in Sources */,
 				595A2DBE2977FA3C008C5003 /* ListViews.swift in Sources */,
 				59D77A3E29775F810039A8CF /* FormView.swift in Sources */,
+				59B1249B297E49BA00693700 /* ModalesView.swift in Sources */,
 				59D77A3C29775A500039A8CF /* GridsViews.swift in Sources */,
 				59D77A36297739BD0039A8CF /* DatePickers.swift in Sources */,
 				59FD8564297665A900AA7D37 /* EjemploStates.swift in Sources */,
 				59FD853329764BA500AA7D37 /* proyectopracticaApp.swift in Sources */,
+				59B1249D297E609B00693700 /* MasMasEjemplos.swift in Sources */,
 				59D77A3A29773F3F0039A8CF /* MasEjemplos.swift in Sources */,
 				59FD8566297666AF00AA7D37 /* MiniExtras.swift in Sources */,
 				59D77A34297734270039A8CF /* TextFields.swift in Sources */,
@@ -389,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -443,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -469,6 +481,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,6 +511,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

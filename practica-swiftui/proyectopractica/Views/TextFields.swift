@@ -19,7 +19,7 @@ struct TextFields: View {
 					.keyboardType(.emailAddress)
 					.disableAutocorrection(true)
 					.padding(10)
-					.font(.headline)
+					.font(Font.headline.weight(.bold))
 					.background(Color.gray.opacity(0.3))
 					.cornerRadius(6)
 					.padding(.horizontal,60)
@@ -27,13 +27,14 @@ struct TextFields: View {
 					.onChange(of: username, perform: {
 						value in print("Nuevo valor \(value)")
 					})
+				
 				if showPassword{
 					TextField("Password", text: $password)
 						.keyboardType(.default)
 						.disableAutocorrection(true)
 						.autocapitalization(.none)
 						.padding(10)
-						.font(.headline)
+						.font(Font.headline.weight(.bold))
 						.background(Color.gray.opacity(0.3))
 						.cornerRadius(6)
 						.padding(.horizontal,60)
@@ -59,7 +60,7 @@ struct TextFields: View {
 					showPassword = !showPassword
 				})
 				.foregroundColor(.white)
-				.fontWeight(.heavy)
+				.font(Font.headline.weight(.bold))
 				.padding()
 				.background(Color.red)
 				.cornerRadius(10)
