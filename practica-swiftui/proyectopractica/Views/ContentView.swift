@@ -37,8 +37,9 @@ struct ContentView: View {
 		MisVistas(title:"Ejemplos de Listas(LOL)", destination:AnyView(ListViews())),
 		MisVistas(title:"Ejemplo de vista Tab", destination:AnyView(TabViewExample())),
 		MisVistas(title:"Ejemplo de vista Modal", destination:AnyView(ModalesView())),
-		MisVistas(title:"Ejemplo de alertas", destination:AnyView(MasMasEjemplos())),
-		
+		MisVistas(title:"Mas ejemplos de componentes", destination:AnyView(MasMasEjemplos())),
+		MisVistas(title:"Ejemplo de gestos", destination:AnyView(GesturesView())),
+		MisVistas(title:"Mas ejemplos de acciones", destination:AnyView(MasAcciones())),
 	]
 	var body: some View {
 			NavigationView{

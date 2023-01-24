@@ -39,6 +39,7 @@ struct MasMasEjemplos: View {
 						Text("Este es el mensaje de la alerta")
 					}
 				)
+				
 				Text("Ejemplo de actionSheet")
 				Button("Presiona para actionshee"){
 					showActionsheet = true
@@ -56,6 +57,23 @@ struct MasMasEjemplos: View {
 				}, message: {
 					Text("Un mensaje para la banda?")
 				})
+				
+				Text("Ejemplode context menu")
+					.padding()
+					.contextMenu(ContextMenu(menuItems: {
+						Button("Meow 1"){
+							
+						}
+						Button("Meow 2"){
+							
+						}
+						Button(action: {
+							
+						}, label: {
+							Label("Meow con icono", systemImage: "iphone")
+						})
+					}))
+				
 			}
     }
 }
