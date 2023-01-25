@@ -40,6 +40,10 @@ struct ContentView: View {
 		MisVistas(title:"Mas ejemplos de componentes", destination:AnyView(MasMasEjemplos())),
 		MisVistas(title:"Ejemplo de gestos", destination:AnyView(GesturesView())),
 		MisVistas(title:"Mas ejemplos de acciones", destination:AnyView(MasAcciones())),
+		MisVistas(title:"Ejemplo de Geometrys", destination:AnyView(Geometrys())),
+		MisVistas(title:"Mas ejemplos de Geometrys", destination:AnyView(GeometryScroll())),
+		MisVistas(title:"Ejemplo de custom modifier", destination:AnyView(CustomViewModifier())),
+		MisVistas(title:"Ejemplo de Preference keys", destination:AnyView(keysPreferences())),
 	]
 	var body: some View {
 			NavigationView{
